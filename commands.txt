@@ -1,0 +1,315 @@
+(prefix)helper general => Shows all general commands
+(prefix)helper fun => Shows fun commands
+(prefix)helper account => Shows all account commands
+(prefix)helper hack => Shows hacking commands
+(prefix)helper nsfw => Shows all nsfw commands
+(prefix)helper toggles => Shows all toggles
+(prefix)helper util => Shows all utility commands
+(prefix)helper theming => Shows all theming commands
+(prefix)helper raid => Shows raiding commands
+(prefix)helper backup => Shows backup commands
+(prefix)helper coding => Shows all coding commands
+(prefix)helper token => Shows all token commands
+(prefix)helper crypto => Shows all crypto commands
+(prefix)helper stats => Shows all stats commands
+
+
+General Commands:
+
+
+(prefix)helper => Displays this help menu
+(prefix)revav (user) => Reverse avatar the mentioned user profile picture
+(prefix)whois (user) => Displays discord information of the mentioned user
+(prefix)role-hexcode (role) => Displays the hexcode of the specified role
+(prefix)guildicon => Display guild icon
+(prefix)roleinfo (role) => Display some info about the specified role
+(prefix)logout => Logs you out the selfbot
+(prefix)everyone => Glitched way to mention everyone in a server
+(prefix)empty => Sends a empty message
+(prefix)sendembed => sends a message as an embed
+(prefix)aod => send daily astronomy with its information
+(prefix)firstmessage => be able to see the first ever message in a channel
+(prefix)fakenitro => send a fake nitro link that sends people to a hidden link
+(prefix)ghostping => ghostping someone ((prefix)ghostping @
+(prefix)count => count up in counting channels automatically (STARTS FROM 0)
+(prefix)pfp => show someone elses profile picture in chat as an image
+(prefix)secret (message) => Returns the message but hidden hidden
+(prefix)bold (message) => Returns the message but bold
+(prefix)unflip => Sends: ┬─┬ ノ( ゜-゜ノ)
+(prefix)tableflip => Sends: (╯°□°）╯︵ ┻━┻
+(prefix)lenny => Sends: ( ͡° ͜ʖ ͡°)
+(prefix)shrug => Sends: ¯\_(ツ)_/¯
+(prefix)reverse (message) => Reverses ur message
+(prefix)ascii (message) => Makes your message ascii/fancy
+(prefix)read => Marks all your messages as read, except DM
+(prefix)group-leaver => Leaves all the groups you're in
+(prefix)purge (amount) => Deletes your messages based on the amount you specify
+(prefix)uptime => Shows how long the selfbot has been online and working
+(prefix)hastebin (message) => Saves your text/code to hastebin
+(prefix)first-message => Get the first message in that channel
+(prefix)abc => Sends the whole abecedary in a single message
+(prefix)devowel (message) => Devowels your message
+(prefix)leetspeak (message) => Translates your message to 1337 language
+(prefix)combine (name1) (name2) => Combines the two names together
+(prefix)pingweb (website) => Pings a website
+(prefix)spam => spam a message (spam MESSAGE HERE)
+(prefix)ghostmsg => Spam the chat with invisible messages
+(prefix)tts (message) => Send that message in .wav format, like an audio
+(prefix)upper (message) => Make your message CAPS
+(prefix)genname => Generate a random name based on the server members
+
+
+Fun Commands:
+
+
+(prefix)boom => sends a fun message self destruct message
+(prefix)fox => Random fox image
+(prefix)dog => Random dog image
+(prefix)cat => Random cat image
+(prefix)minesweeper => Play minesweeper in the discord chat
+(prefix)dick (user) => Display the mentioned user dick size
+(prefix)rainbow (role) => Cycle colors in the role you specify
+(prefix)ball (question) => Answers your question
+(prefix)joke => Drops a random joke in the chat
+(prefix)slot => Play slot machine in the discord chat
+(prefix)topic => Start a random topic to keep the chat going
+(prefix)wyr => Start a 'would you rather' topic in the chat
+(prefix)feed (user) => Feed the mentioned user
+(prefix)tickle (user) => Tickle the mentioned user
+(prefix)slap (user) => Slap the mentioned user
+(prefix)ukswag => show everyone some uk swag
+(prefix)oogway => OOGWAY
+(prefix)custommeme => send some custom memes example ((prefix)custommeme [meme name] / TEXT HERE / TEXT HERE)
+(prefix)custommeme help => send the help message for the custommeme command
+(prefix)panda => send a panda image
+(prefix)koala => send a koala image
+(prefix)pikachu => send a pikachu gif
+(prefix)duck => send a duck image
+(prefix)socials => send a list of your socials(can edit inside the socials.json file)
+(prefix)dice => roll random dice Example: (dice 5 4)
+(prefix)meme => send a random meme
+(prefix)wink => send a wink gif
+(prefix)trumptweet => send a custom tweet disguised as Donald Trump
+(prefix)bear => send a random bear picture with a fact
+(prefix)insult => send a random insult in chat
+(prefix)faketype [sec] => make people think your typing
+(prefix)ship => make one user fancy another
+(prefix)stickbug => turn someones pfp into a stickbug troll video (takes time to make)
+(prefix)threat => show who the real threat is to the world
+(prefix)qr => make a custom working qr code (qr WORD/WORDS NO SPACES)
+(prefix)foxieotter => send a random otter picture (Foxie)
+(prefix)rowyturtle => send a random turtle picture (rowy)
+(prefix)smalltxt => make any message you want into a smaller version
+(prefix)hug (user) => Hug the mentioned user
+(prefix)smug (user) => Smug at the mentioned user
+(prefix)pat (user) => Pat the mentioned user
+(prefix)kiss (user) => Kiss the mentioned user
+(prefix)nine_eleven => sends a 9/11 animation
+(prefix)phcomment => sends a funny fake pornhub comment
+(prefix)dox => sends a funny dox animation
+(prefix)fry => sends a fry version of someones pfp
+(prefix)magik => sends a magik version of someones pfp
+(prefix)cum => sends a funny cum animation
+(prefix)coinflip => plays a small coinflip game
+(prefix)poll => creates a 2 option poll
+(prefix)imgsearch => searches up an image of whatever you like
+(prefix)bee => SENDS THE WHOLE BEE MOVIE SCRIPT
+(prefix)cap => see how much someone is cappin
+(prefix)cuddle => cuddle someone
+(prefix)waifu => send a picture of a random waifu
+(prefix)fbi => send a funny fbi video
+(prefix)fbispam => spam send a funny fbi video
+(prefix)wwb => send a fake carding message
+(prefix)bugtroll => troll someone with a bug on their screen
+(prefix)trojan => send a fun trojan text animation
+(prefix)bubblewrap => play with some bubblewrap
+
+
+Account Commands:
+
+
+(prefix)btcstream => Stream current btc price
+(prefix)pfpsteal (user) => Allows you to steal mentioned user profile picture [Must have password set in config.json file]
+(prefix)ghost => Turns your name and profile picture blank
+(prefix)hypesquad (house) => Allows you to change your hypesquad (ie: !hypesquad bravery)
+(prefix)stream (message) => Stream that message in your profile
+(prefix)watching (message) => Add a watching status with that message in your profile
+(prefix)listening (message) => Add a listening status with that message in your profile
+(prefix)game (message) => Add a game status with that message in your profile
+(prefix)stopcyclenick => stops the cyclenick command
+(prefix)cyclenick => animates your nickname
+(prefix)invnick => makes your nickname invisible
+(prefix)fucknick => completely ruins your nickname
+(prefix)nickname => changes your nickname to anything you like
+(prefix)setpfp => set your pfp to any image url (setpfp URL)
+
+
+Hack Commands: 
+
+
+(prefix)tokeninfo (token) -> Display various information about the token
+(prefix)tokenfuck (token) => Crash, glitch screen of a token, all in discord
+(prefix)geoip (ip) => Display various information about the IP
+(prefix)ebayview (url) (views) => Send views to a ebay product (ie: !ebayview https://www.ebay.es/itm/XXXXXX 100
+(prefix)nitro (number) => Generate nitro codes
+(prefix)proxy => Scraps HTTP/HTTPS/SOCKS4/SOCKS5 proxies
+(prefix)address (text) => Generates fake address based on the text you specify
+(prefix)portscan => scan the ports of an ip
+(prefix)impersonate => Make a bot look like another user and make them say anything you want (REQUIRES WEBHOOK PERMISSIONS) example: ((prefix)impersonate @USER TEXT HERE)
+(prefix)ipinfo => get information about an ip address (ipinfo 1.1.1.1)
+(prefix)vcspam => make someone in a vc spam change voice channels (vcspam FIRSTCHANNELID SECONDCHANNELID USERID)
+(prefix)halftoken => show the first half of someones token
+(prefix)csgowh => inject a wallhack into your csgo game
+
+
+NSFW Commands: 
+
+
+(prefix)hlesbian => Random lesbian [Anime]
+(prefix)hlewdneko => Random lewd neko [Anime]
+(prefix)hblowjob => Random blowjob [Anime]
+(prefix)htits => Random tits [Anime]
+(prefix)hboobs => Random boobs [Anime]
+(prefix)hhentai => Random hentai [Anime]
+(prefix)hfeet => Random feet [Anime]
+(prefix)herofeet => Random erotic feet [Anime]
+(prefix)hanal => Random anal [Anime]
+(prefix)hcumslut => Random cumslut [Anime]
+(prefix)hfuta => Random Futanari [Anime]
+(prefix)hsolo => Random solo [Anime]
+(prefix)hclassic => Random classic [Anime]
+(prefix)hpussy => Random pussy [Anime]
+(prefix)butt => (send a real life butt image)
+(prefix)boobs => (send a real life boobs image)
+(prefix)anal => (send a real life anal image)
+(prefix)r34 => send a random r34 image
+(prefix)pussy => (send a real life pussy image)
+(prefix)boobdrop => send a boobdrop video
+(prefix)gonewild => send random gone wild pictures
+
+
+Toggle Commands: 
+
+
+(prefix)afkmode => Turns afk mode on/off
+(prefix)sniper => Turns Nitro Sniper on/off
+(prefix)ignorepings => Turns ignore all pings on/off
+(prefix)gsnipermode => Turns your Giveaway Sniper on/off
+(prefix)dankfarm => Turns your Dank Memer Farmer on/off
+(prefix)danksell => Auto sell useless items you have for Dank Memer every 45 Minutes
+(prefix)selfbotdetection => Turns selfbot detection on/off
+
+
+Utility Commands: 
+
+
+(prefix)bitly (link) => Shorten ur link using bitly [Must have bitly api key set in config.json file]
+(prefix)tinyurl (link) => Shorten ur link using tinyurl
+(prefix)weather (city) => Lookup weather for the specified city
+(prefix)autobump (channel id) => Automatically bump server to disboard.org [Needs the Disboard to be in the server]
+(prefix)mac (mac) => Lookup a bit of info about a MAC (ie: !mac xx:xx:xx:xx:xx:xx)
+(prefix)copy => Copy everything from one server to another (even role perms)
+(prefix)banner => sends server banner
+(prefix)spfp => sends server icon
+(prefix)serverinfo => sends information about the current server
+(prefix)sysinfo => sends information about your pc
+(prefix)gennitro => starts a discord nitro generator in the selfbot console
+(prefix)checknitro => checks the nitro codes you generated with the gennitro command
+(prefix)helpall => sends all help commands at once (2 second interval)
+(prefix)restart => restarts the selfbot to clean up the consoles logs
+(prefix)bantoken => ban any token (will not be instant)
+(prefix)usersocials => look at a users connected accounts (usersocials USERID)
+(prefix)stealemojis => steal a servers emojis (they copy into the images folder)
+(prefix)passgen => generate a randomly generated password with the length of 15
+(prefix)leaveall => leave all current discord servers you are in
+(prefix)dmclear => Clear all dms you have ever sent
+(prefix)encrypt => encrypt a message in an exclusive Ragnarok encryption
+(prefix)decrypt => decrypt a Ragnarok encrypted message
+(prefix)suggest (TEXT) => Give a suggestion with thumbs up/down reactions
+(prefix)rolehexcode => find the hexcode color for a role (rolehexcode ROLE NAME)
+(prefix)groupleaver => leave all groups you are in
+(prefix)getcolor => show the color of your choice (getcolor red)
+(prefix)hookspam => spam a servers webhooks (hookspam AMOUNT MESSAGE)
+(prefix)hooks => make webhooks for every channel on a server so if you choose 5 thats 5 webhooks for every channel(hooks amount)
+(prefix)userlogin => login to a user token (userlogin then CHECK RAGNAROK)
+(prefix)ytdl => download an mp4 youtube video (ytdl VIDEO NAME)
+(prefix)changeprefix => change your prefix (changeprefix LETTER/SYMBOL/NUMBER)
+(prefix)fnshop => See a picture of the current fortnite shop
+(prefix)dcping => Check what your discord ping is
+(prefix)calc => open the calculator app for those difficult math questions
+(prefix)setupwhooks => set up all of your webhooks you need for webhook notifications in a server you have made
+(prefix)alucard => set the main UI to the all knowing god of ALUCARD SELFBOT!!
+(prefix)normal => set the UI back to the normal Ragnarok Selfbot UI
+(prefix)exeter => set the UI to Exeter Selfbot UI
+(prefix)react => set the UI to React Selfbot UI
+(prefix)dnsdump => dump the dns list of a url/website link
+(prefix)vckick => block someone from joining any voice chat in a server (REQUIRES PERMS)
+(prefix)vckickoff => stops denying someone access from server voice chats
+(prefix)textclear => delete an amount of messages from your current channel (textclear 5)
+
+
+Theme Commands: 
+
+
+(prefix)changetheme => change your current selfbot theme (changetheme THEME NAME)
+(prefix)themes => see your current list of theme you have
+(prefix)themecreator => create a brand new theme with a pop up window (Thx JrezzyJenkins)
+
+
+Raid Commands:
+
+
+(prefix)nuke => Completely nuke a server (Requires admin or higher)
+(prefix)delroles => Delete all the roles
+(prefix)massunban => Unban every member
+(prefix)crashgif => sends a gif that crashes anyone who sees it
+(prefix)renamechannels => renames every channel in a server to whatever you choose
+(prefix)spamchannels => spams a server with random channels
+(prefix)gcn => spams a groupchat name
+(prefix)sendall => sends a message in every server channel
+(prefix)massreact => reacts to a chosen amount of previous messages in the chat (massreact :emojiname: AMOUNT)
+(prefix)lagspam => spam a chat with some fucked up text (can lag mobile)
+(prefix)banall => ban all members in a server (Requires Admin Or Higher)
+(prefix)massmention => @'s an amount of people
+(prefix)nickall => Set everyone in a servers nickname to something custom
+(prefix)foxiecrash => send crash gifs in every channel of a server(in testing may not work properly)
+
+
+Backup Commands: 
+
+
+(prefix)backupall => saves all of your friends and creates invites for all of your servers and stores them
+(prefix)recoverall => (DISABLED FOR NOW)automatically joins back all saved servers and sends all saved friends a friend request (10 sec cooldown to prevent rate limit)
+
+
+Coding Commands: 
+
+
+(prefix)encode (string) => Encode a string to base64 ascii
+(prefix)decode (string) => Decode a string from base64 to regular text
+
+
+Token Commands: 
+
+
+(prefix)tokenjoin => send all your tokens in tokens.txt to a server with an invite (tokenjoin INVITE)
+(prefix)tokenleave => make your tokens leave a server you made them join usage: (tokenleave SERVER ID HERE)
+(prefix)tokenspam => make your tokens spam the server you made them join (tokenspam CHANNELID AMOUNT MESSAGE)
+(prefix)tokendm => make all of your tokens dm a user (tokenspam USERID AMOUNT TEXT) EXPERIMENTAL
+(prefix)checkreal => checks your tokens to see if they are real working tokens or not
+(prefix)checkdisabled => checks your tokens to see if they are disabled or working normally
+
+
+Crypto Commands: 
+
+
+(prefix)btc Display current Bitcoin price
+(prefix)eth Display current Ethereum price
+(prefix)dailybtc gives you detailed info on the current prices of BTC AND ETH
+
+
+Status Commands: 
+
+
+(prefix)fnstats => See your fortnite stats
+(prefix)r6stats => See your rainbow 6 siege stats
